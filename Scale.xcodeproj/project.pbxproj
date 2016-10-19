@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		134D11371DB7513F00B30BDD /* kitchen_scale_weighing_scales_weight_measurement_flat_design_icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 134D11361DB7513F00B30BDD /* kitchen_scale_weighing_scales_weight_measurement_flat_design_icon-512.png */; };
+		13DD71DF1DB7741000FC05CC /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 13DD71DD1DB7741000FC05CC /* 1.png */; };
+		13DD71E01DB7741000FC05CC /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 13DD71DE1DB7741000FC05CC /* 2.png */; };
 		22EC737B1BE790FF00507F33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EC737A1BE790FF00507F33 /* AppDelegate.swift */; };
 		22EC737D1BE790FF00507F33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EC737C1BE790FF00507F33 /* ViewController.swift */; };
 		22EC73801BE790FF00507F33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EC737E1BE790FF00507F33 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		134D11361DB7513F00B30BDD /* kitchen_scale_weighing_scales_weight_measurement_flat_design_icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kitchen_scale_weighing_scales_weight_measurement_flat_design_icon-512.png"; sourceTree = "<group>"; };
+		13DD71DD1DB7741000FC05CC /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		13DD71DE1DB7741000FC05CC /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		22EC73771BE790FF00507F33 /* Scale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EC737A1BE790FF00507F33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22EC737C1BE790FF00507F33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +103,9 @@
 		22EC73791BE790FF00507F33 /* Scale */ = {
 			isa = PBXGroup;
 			children = (
+				13DD71DD1DB7741000FC05CC /* 1.png */,
+				13DD71DE1DB7741000FC05CC /* 2.png */,
+				134D11361DB7513F00B30BDD /* kitchen_scale_weighing_scales_weight_measurement_flat_design_icon-512.png */,
 				22EC737A1BE790FF00507F33 /* AppDelegate.swift */,
 				22EC737C1BE790FF00507F33 /* ViewController.swift */,
 				22EC737E1BE790FF00507F33 /* Main.storyboard */,
@@ -193,6 +202,7 @@
 				TargetAttributes = {
 					22EC73761BE790FF00507F33 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 4BGR2HUY6V;
 					};
 					22EC738A1BE7910000507F33 = {
 						CreatedOnToolsVersion = 7.1;
@@ -229,9 +239,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13DD71E01DB7741000FC05CC /* 2.png in Resources */,
+				134D11371DB7513F00B30BDD /* kitchen_scale_weighing_scales_weight_measurement_flat_design_icon-512.png in Resources */,
 				22EC73851BE790FF00507F33 /* LaunchScreen.storyboard in Resources */,
 				22EC73821BE790FF00507F33 /* Assets.xcassets in Resources */,
 				22EC73801BE790FF00507F33 /* Main.storyboard in Resources */,
+				13DD71DF1DB7741000FC05CC /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +342,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Pradip Solanke (4BGR2HUY6V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Pradip Solanke (4BGR2HUY6V)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -373,7 +387,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Pradip Solanke (4BGR2HUY6V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Pradip Solanke (4BGR2HUY6V)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -397,9 +412,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Pradip Solanke (4BGR2HUY6V)";
 				INFOPLIST_FILE = Scale/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.maximedefauw.Scale;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weighme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -408,9 +425,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Pradip Solanke (4BGR2HUY6V)";
 				INFOPLIST_FILE = Scale/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.maximedefauw.Scale;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weighme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -482,6 +501,7 @@
 				22EC73A11BE7910000507F33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22EC73A21BE7910000507F33 /* Build configuration list for PBXNativeTarget "ScaleTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +510,7 @@
 				22EC73A41BE7910000507F33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22EC73A51BE7910000507F33 /* Build configuration list for PBXNativeTarget "ScaleUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +519,7 @@
 				22EC73A71BE7910000507F33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
