@@ -2,7 +2,7 @@
 
 ![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat)
 ![Appstore](https://img.shields.io/badge/AppStore-Approved-green.svg)
-![Language](https://img.shields.io/badge/Language-Objective----C-yellowgreen.svg)
+![Language](https://img.shields.io/badge/Language-%20Swift2.0-yellowgreen.svg)
 
 [App Link](https://itunes.apple.com/us/app/whatsmyweight/id1166848622?ls=1&mt=8)
 
